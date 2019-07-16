@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>KaminagaPlugin</Name>　<!--アプリケーション名を記述します。-->
+    <Assembly>ClassLibraryRevit\ClassLibraryRevit\bin\Debug\netstandard2.0\ClassLibraryRevit.dll</Assembly>　<!--アドインファイルの名前を記述します。-->
+    <FullClassName>Revit.Plugin.kaminaga.Command</FullClassName>　<!--コーディングした外部アプリケーションクラスの名前を記述します。-->
+    <ClientId>71A150E3-429D-4E80-A048-BE83B73BE5A5</ClientId>　<!--GUIDを作成して記述します。-->
+    <VendorId>AMD_</VendorId>　<!--3文字 + アンダーバーのVendeorIDを記述します。-->
+  </AddIn>
+</RevitAddIns>

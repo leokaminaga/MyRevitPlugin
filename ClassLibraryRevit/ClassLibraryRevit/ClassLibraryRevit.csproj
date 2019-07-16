@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AdWindows">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualC.STLCLR">
+      <HintPath>..\..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualC.STLCLR.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <HintPath>..\..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

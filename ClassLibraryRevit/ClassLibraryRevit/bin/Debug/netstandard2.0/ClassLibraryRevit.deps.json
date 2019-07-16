@@ -1,0 +1,777 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "ClassLibraryRevit/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "AdWindows": "2017.11.1.0",
+          "Microsoft.VisualC.STLCLR": "1.0.0.0",
+          "PresentationCore": "3.0.0.0",
+          "RevitAPI": "19.0.0.0",
+          "RevitAPIUI": "19.0.0.0"
+        },
+        "runtime": {
+          "ClassLibraryRevit.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "AdWindows/2017.11.1.0": {
+        "runtime": {
+          "AdWindows.dll": {
+            "assemblyVersion": "2017.11.1.0",
+            "fileVersion": "2017.11.1.0"
+          }
+        },
+        "resources": {
+          "cs-CZ/AdWindows.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "de-DE/AdWindows.resources.dll": {
+            "locale": "de-DE"
+          },
+          "en-GB/AdWindows.resources.dll": {
+            "locale": "en-GB"
+          },
+          "en-US/AdWindows.resources.dll": {
+            "locale": "en-US"
+          },
+          "es-ES/AdWindows.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/AdWindows.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/AdWindows.resources.dll": {
+            "locale": "it-IT"
+          },
+          "ja-JP/AdWindows.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "ko-KR/AdWindows.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "pl-PL/AdWindows.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "pt-BR/AdWindows.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/AdWindows.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/AdWindows.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "zh-TW/AdWindows.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "Microsoft.VisualC.STLCLR/1.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualC.STLCLR.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "9.0.30729.9518"
+          }
+        }
+      },
+      "PresentationCore/3.0.0.0": {
+        "runtime": {
+          "PresentationCore.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.6920.9034"
+          }
+        },
+        "resources": {
+          "ja/PresentationCore.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "RevitAPI/19.0.0.0": {
+        "runtime": {
+          "RevitAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RevitAPIUI/19.0.0.0": {
+        "runtime": {
+          "RevitAPIUI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RevitAPIFoundation/19.0.0.0": {
+        "runtime": {
+          "RevitAPIFoundation.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RevitDBAPI/19.0.0.0": {
+        "runtime": {
+          "RevitDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "PersistenceDBAPI/19.0.0.0": {
+        "runtime": {
+          "PersistenceDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "UtilityAPI/19.0.0.0": {
+        "runtime": {
+          "UtilityAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "APIDBAPI/19.0.0.0": {
+        "runtime": {
+          "APIDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "GraphicsAPI/19.0.0.0": {
+        "runtime": {
+          "GraphicsAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "ElementGroupDBAPI/19.0.0.0": {
+        "runtime": {
+          "ElementGroupDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "EssentialsDBAPI/19.0.0.0": {
+        "runtime": {
+          "EssentialsDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "GeomUtilAPI/19.0.0.0": {
+        "runtime": {
+          "GeomUtilAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "FamilyDBAPI/19.0.0.0": {
+        "runtime": {
+          "FamilyDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "DetailDBAPI/19.0.0.0": {
+        "runtime": {
+          "DetailDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "CurtainGridFamilyDBAPI/19.0.0.0": {
+        "runtime": {
+          "CurtainGridFamilyDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "ArrayElemsDBAPI/19.0.0.0": {
+        "runtime": {
+          "ArrayElemsDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "EnergyAnalysisDBAPI/19.0.0.0": {
+        "runtime": {
+          "EnergyAnalysisDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "BuildingSystemsDBAPI/19.0.0.0": {
+        "runtime": {
+          "BuildingSystemsDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "HostObjDBAPI/19.0.0.0": {
+        "runtime": {
+          "HostObjDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RoomAreaPlanDBAPI/19.0.0.0": {
+        "runtime": {
+          "RoomAreaPlanDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "SiteDBAPI/19.0.0.0": {
+        "runtime": {
+          "SiteDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "SculptingDBAPI/19.0.0.0": {
+        "runtime": {
+          "SculptingDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "StructuralDBAPI/19.0.0.0": {
+        "runtime": {
+          "StructuralDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "InterfaceAPI/19.0.0.0": {
+        "runtime": {
+          "InterfaceAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "InterfaceUtilAPI/19.0.0.0": {
+        "runtime": {
+          "InterfaceUtilAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RebarDBAPI/19.0.0.0": {
+        "runtime": {
+          "RebarDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "StructuralAnalysisDBAPI/19.0.0.0": {
+        "runtime": {
+          "StructuralAnalysisDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "MassingDBAPI/19.0.0.0": {
+        "runtime": {
+          "MassingDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "AssemblyDBAPI/19.0.0.0": {
+        "runtime": {
+          "AssemblyDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "DPartDBAPI/19.0.0.0": {
+        "runtime": {
+          "DPartDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "NumberingDBAPI/19.0.0.0": {
+        "runtime": {
+          "NumberingDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "PointCloudAccessAPI/19.0.0.0": {
+        "runtime": {
+          "PointCloudAccessAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "StairRampDBAPI/19.0.0.0": {
+        "runtime": {
+          "StairRampDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "AnalysisAppsDBAPI/19.0.0.0": {
+        "runtime": {
+          "AnalysisAppsDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "MaterialDBAPI/19.0.0.0": {
+        "runtime": {
+          "MaterialDBAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "DBManagedServices/19.0.0.0": {
+        "runtime": {
+          "DBManagedServices.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RevitAddInUtility/19.0.0.0": {
+        "runtime": {
+          "RevitAddInUtility.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "APIInterop/19.0.0.0": {
+        "runtime": {
+          "APIInterop.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "UIFramework/19.0.0.0": {
+        "runtime": {
+          "UIFramework.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "AddInManager/19.0.0.0": {
+        "runtime": {
+          "AddInManager.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RevitUIAPI/19.0.0.0": {
+        "runtime": {
+          "RevitUIAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "BuildingSystemsUIAPI/19.0.0.0": {
+        "runtime": {
+          "BuildingSystemsUIAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "DesktopMFCAPI/19.0.0.0": {
+        "runtime": {
+          "DesktopMFCAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "APIUIAPI/19.0.0.0": {
+        "runtime": {
+          "APIUIAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "RevitMFCAPI/19.0.0.0": {
+        "runtime": {
+          "RevitMFCAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "EssentialsUIAPI/19.0.0.0": {
+        "runtime": {
+          "EssentialsUIAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "EnergyAnalysisUtilitiesAPI/19.0.0.0": {
+        "runtime": {
+          "EnergyAnalysisUtilitiesAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "DetailUIAPI/19.0.0.0": {
+        "runtime": {
+          "DetailUIAPI.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "UIFrameworkServices/19.0.0.0": {
+        "runtime": {
+          "UIFrameworkServices.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.405"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock/2.0.19.4": {
+        "runtime": {
+          "Xceed.Wpf.AvalonDock.dll": {
+            "assemblyVersion": "2.0.19.4",
+            "fileVersion": "2.0.19.4"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibraryRevit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "AdWindows/2017.11.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualC.STLCLR/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationCore/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevitAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevitAPIUI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevitAPIFoundation/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevitDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersistenceDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UtilityAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "APIDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicsAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ElementGroupDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EssentialsDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeomUtilAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FamilyDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DetailDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CurtainGridFamilyDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayElemsDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnergyAnalysisDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuildingSystemsDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HostObjDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RoomAreaPlanDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SiteDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SculptingDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StructuralDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterfaceAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterfaceUtilAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RebarDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StructuralAnalysisDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MassingDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AssemblyDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DPartDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NumberingDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PointCloudAccessAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StairRampDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AnalysisAppsDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaterialDBAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBManagedServices/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevitAddInUtility/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "APIInterop/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UIFramework/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddInManager/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevitUIAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuildingSystemsUIAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DesktopMFCAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "APIUIAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevitMFCAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EssentialsUIAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnergyAnalysisUtilitiesAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DetailUIAPI/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UIFrameworkServices/19.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Xceed.Wpf.AvalonDock/2.0.19.4": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
